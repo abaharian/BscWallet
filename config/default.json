@@ -1,0 +1,46 @@
+{
+    //please set your configs and rename this file to default.json
+    "dbconfig":{
+        "host":"*************",
+        "port":"***",
+        "username":"*****",
+        "password":"********************",
+        "database":"*********"
+    },
+    "messages":{
+        "hintNewAddress" : "Create from Node.js Program",
+        "unsupportedToken" : "این توکن در حال حاضر پشتیبانی نمی‌شود",
+        "blockchainError" : "ساخت آدرس روی شبکه بلاکچین با خطا مواجه شده است. لطفاً مجدداً امتحان کنید.",
+        "connectionPasswordError" : "رمز ارتباط بین سرورها اشتباه است",
+        "unknownError" : "مشکلی پیش آمده است! لطفاً بعداً امتحان کنید"
+    },
+    "blockchain":{
+        "name" : "bep20",
+        "mainToken" : "BNB",
+        "confirmationCount" : 16,
+        "minMainTokenRemain" : 0.0003,
+        "minBlockchainFee" : 0.001,
+        "minTokenRemainPercent" : 0.999,
+        "fullNodeAddress" : "https://bsc-dataseed.binance.org/"        
+    },
+    "running":{
+        "protocol":"http",
+        "port" : "**int**",
+        "apiCreateAddress" : "/api/wallets/createAddress",    
+        "APIgetBalance" : "/api/wallets/getBalance",        
+        "APIWithdraw" : "/api/wallets/withdraw",
+        "APIUserLogin" : "/api/wallets/userLogin",
+        "APIUserLogout" : "/api/wallets/userLogout",
+        "httpsKeyPath"  :  "/opt/certs/sa-dra.com.key",
+        "httpsCertPath"  : "/opt/certs/sa-dra.com.crt"
+    },
+    "connection":{
+        "connectionPassword" : "********************",
+        "backendProtocol" : "http",
+        "backendEndpoint" : "********************",
+        "backendPort" : 8000,
+        "backendUrl" : "/api/HDWallet/newtrx"    
+    },    
+    "masterPassword" : "**************************",            
+    "depositInterval" : 300   
+}
