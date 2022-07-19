@@ -1,0 +1,21 @@
+{
+   "name": "sadraBSCwallet",
+   "version": "1.0.0",
+   "description": "A self-Implemented HD-Wallet for Binance Smart Chain blockchain for sadra project",
+   "type": "module",
+   "main": "index.js",
+   "scripts": {
+      "dev": "nodemon src/index.js"
+   },
+   "author": "Ardeshir Baharian",
+   "license": "EcomPadideh",
+   "dependencies": {
+      "axios": "^0.21.4",
+      "config": "^3.3.7",
+      "crypto": "^1.0.1",
+      "express": "^4.17.2",
+      "node-fetch": "^3.2.0",
+      "pg": "^8.7.1",
+      "web3": "^1.2.6"
+   }
+}
